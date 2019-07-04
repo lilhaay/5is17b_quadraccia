@@ -66,7 +66,7 @@ Paragraphs and Line Breaks
                     
 > "Blockquotes Blockquotes", [Link](http://localhost/)。
 
-###Links
+### Links
 
 [Links](http://localhost/)
 
@@ -80,13 +80,13 @@ Paragraphs and Line Breaks
 
 GFM a-tail link @pandao
 
-###Code Blocks (multi-language) & highlighting
+### Code Blocks (multi-language) & highlighting
 
-####Inline code
+#### Inline code
 
 `$ npm install marked`
 
-####Code Blocks (Indented style)
+#### Code Blocks (Indented style)
 
 Indented 4 spaces, like `<pre>` (Preformatted Text).
 
@@ -101,7 +101,7 @@ Code Blocks (Preformatted text):
     | Content Cell  | Content Cell  |
     | Content Cell  | Content Cell  |
 
-####Javascript　
+#### Javascript　
 
 ```javascript
 function test(){
@@ -142,7 +142,7 @@ var testBox = box();
 testBox.add("jQuery").remove("jQuery");
 ```
 
-####HTML code
+#### HTML code
 
 ```html
 <!DOCTYPE html>
@@ -157,7 +157,7 @@ testBox.add("jQuery").remove("jQuery");
 </html>
 ```
 
-###Images
+### Images
 
 Image:
 
@@ -177,21 +177,21 @@ Image:
                 
 ----
 
-###Lists
+### Lists
 
-####Unordered list (-)
+#### Unordered list (-)
 
 - Item A
 - Item B
 - Item C
      
-####Unordered list (*)
+#### Unordered list (*)
 
 * Item A
 * Item B
 * Item C
 
-####Unordered list (plus sign and nested)
+#### Unordered list (plus sign and nested)
                 
 + Item A
 + Item B
@@ -203,7 +203,7 @@ Image:
     * Item C 2
     * Item C 3
 
-####Ordered list
+#### Ordered list
                 
 1. Item A
 2. Item B
@@ -211,7 +211,7 @@ Image:
                 
 ----
                     
-###Tables
+### Tables
                     
 First Header  | Second Header
 ------------- | -------------
@@ -242,7 +242,7 @@ Content Cell  | Content Cell
                 
 ----
 
-####HTML entities
+#### HTML entities
 
 &copy; &  &uml; &trade; &iexcl; &pound;
 &amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot; 
@@ -251,13 +251,13 @@ X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
 
 18&ordm;C  &quot;  &apos;
 
-##Escaping for Special Characters
+## Escaping for Special Characters
 
 \*literal asterisks\*
 
-##Markdown extras
+## Markdown extras
 
-###GFM task list
+### GFM task list
 
 - [x] GFM task list 1
 - [x] GFM task list 2
@@ -269,7 +269,7 @@ X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
     - [ ] GFM task list 4-1
     - [ ] GFM task list 4-2
 
-###Emoji mixed :smiley:
+### Emoji mixed :smiley:
 
 > Blockquotes :star:
 
@@ -283,7 +283,7 @@ X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
     - [ ] :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;
     - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
             
-###TeX(LaTeX)
+### TeX(LaTeX)
    
 $$E=mc^2$$
 
@@ -293,7 +293,7 @@ $$\(\sqrt{3x-1}+(1+x)^2\)$$
                     
 $$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
                 
-###FlowChart
+### FlowChart
 
 ```flow
 st=>start: Login
@@ -306,7 +306,7 @@ cond(yes)->e
 cond(no)->op
 ```
 
-###Sequence Diagram
+### Sequence Diagram
                     
 ```seq
 Andrew->China: Says Hello 
@@ -315,4 +315,4 @@ China-->Andrew: How are you?
 Andrew->>China: I am good thanks!
 ```
 
-###End
+### End
